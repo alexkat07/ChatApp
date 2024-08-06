@@ -29,7 +29,7 @@
             <ListView ItemsSource="{Binding Users}">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextBlock Text="{Binding Username}" />
+                        <TextBlock Text="{Binding UserName}" />
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
